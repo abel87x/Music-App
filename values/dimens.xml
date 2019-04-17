@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="image_item_width_height">88dp</dimen>
+    <dimen name="play_arrow_height">32dp</dimen>
+    <dimen name="play_arrow_width">32dp</dimen>
+    <dimen name="playing_album_art_width_height">216dp</dimen>
+    <dimen name="forward_rewind_width_height">32dp</dimen>
+    <dimen name="rotating_record_width_height">56dp</dimen>
+    <dimen name="cardItemWidth">300dp</dimen>
+    <dimen name="cardItemHeight">450dp</dimen>
+</resources>

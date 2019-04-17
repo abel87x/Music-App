@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="main_banner">my Library</string>
+    <string name="sub_banner">By Artist</string>
+
+</resources>

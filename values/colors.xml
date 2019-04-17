@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="mainColorPrimary">#37474f</color>
+    <color name="mainColorPrimaryDark">#102027</color>
+    <color name="mainColorAccent">#62727b</color>
+
+    <color name="playingColorPrimary">#37474f</color>
+    <color name="playingColorPrimaryDark">#102027</color>
+    <color name="playingColorAccent">#FFAB91</color>
+
+    <color name="firstCardColor">#424242</color>
+    <color name="secCardColor">#8b00dd</color>
+    <color name="thirdCardColor">#4E342E</color>
+    <color name="fourthCardColor">#424242</color>
+    <color name="fifthCardColor">#b1006a</color>
+
+    <color name="mainBackground">#616161</color>
+
+</resources>

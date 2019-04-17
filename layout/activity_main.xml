@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/menu"/>
+
+        <TextView
+            android:id="@+id/bannertxt"
+            style="@style/main_banner_text"
+            android:layout_toEndOf="@id/icon"
+            android:paddingTop="12dp"
+            android:text="@string/main_banner"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:id="@+id/subbannertxt"
+            style="@style/main_banner_text"
+            android:layout_below="@id/bannertxt"
+            android:layout_toEndOf="@id/icon"
+            android:text="@string/sub_banner"
+            android:textAppearance="@android:style/TextAppearance.Small"/>
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:paddingTop="12dp"
+            android:src="@drawable/musicplayer" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subbannertxt"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:scrollbars="none"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            tools:context=".MainActivity" />
+
+    </RelativeLayout>
+
+</ScrollView>
